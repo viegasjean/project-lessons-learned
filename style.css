@@ -30,3 +30,23 @@ nav ul li a {
   text-decoration: none;
   color: white;
 }
+
+#licoes_aprendidas, #licoes_a_aprender {
+  display: inline-block;
+}
+
+.lado-direito, .lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.lado-direito {
+  position: absolute;
+  right: 0;
+  font-size: small;
+}
+
+.lado-esquerdo {
+  font-family: 'Courier New', Courier, monospace;
+}
